@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Robert2k2s/frontend-truyen.git/static/css/main.97ed6188.css",
+    "main.js": "/Robert2k2s/frontend-truyen.git/static/js/main.ffa19428.js",
+    "index.html": "/Robert2k2s/frontend-truyen.git/index.html",
+    "main.97ed6188.css.map": "/Robert2k2s/frontend-truyen.git/static/css/main.97ed6188.css.map",
+    "main.ffa19428.js.map": "/Robert2k2s/frontend-truyen.git/static/js/main.ffa19428.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97ed6188.css",
+    "static/js/main.ffa19428.js"
+  ]
+}
