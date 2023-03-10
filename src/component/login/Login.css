@@ -1,0 +1,102 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.form::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("https://khoinguonsangtao.vn/wp-content/uploads/2022/11/hinh-anh-tien-hiep-con-rong-huyen-thoai.jpg");
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .register a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(246, 246, 246);
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+button {
+  margin: 10px 0;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 12px 15px;
+  border-radius: 15px;
+  margin: 10px;
+  width: 250px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.cancelbtn {
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  background-color: #f44336;
+  color: white;
+}
+
+.cancelbtn:hover {
+  background-color: #d32f2f;
+}
+
+.googleLogin {
+  position: absolute;
+  bottom: 20%;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+}

@@ -1,0 +1,103 @@
+.listTruyen-item {
+  position: relative;
+  top: -150px;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color: white;
+  padding: 20px;
+}
+
+.listTruyen-item-top {
+  display: flex;
+}
+
+.listTruyen-item-top .listTruyen-item-top__img {
+  width: 210px;
+  margin: 0 40px 50px 0;
+  box-shadow: 2px 3px 2px 0 rgba(0, 0, 0, 0.15) !important;
+}
+.listTruyen-item-top .listTruyen-item-top__img img {
+  width: 100%;
+}
+/*  */
+
+.listTruyen-item-top .listTruyen-item-top__content h1 {
+  margin: 20px 0 32px 0;
+  font-size: 23px;
+  color: #333333;
+}
+.listTruyen-item-top .content-author {
+  margin-top: 40px;
+}
+.listTruyen-item-top .content-author a {
+  padding: 7px 10px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+.listTruyen-item-top .content-author a:first-child {
+  color: #666;
+  border: 1px solid #666;
+}
+.listTruyen-item-top .content-author a:nth-child(2) {
+  color: #65c0ba;
+  border: 1px solid#65c0ba;
+}
+.listTruyen-item-top .content-btn {
+  margin-top: 40px;
+}
+.listTruyen-item-top .content-btn button,
+.listTruyen-item-top .content-addCart button,
+.listTruyen-item-top .content-addCart span {
+  padding: 12px 24px;
+  border: 1px solid #a6b3b3;
+  border-radius: 25px;
+  margin-right: 16px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #a6b3b3;
+  background-color: white;
+  cursor: pointer;
+}
+.listTruyen-item-top .content-btn button:first-child {
+  color: white;
+  background-color: #a6b3b3;
+}
+.listTruyen-item-top .content-btn button i {
+  margin-right: 10px;
+}
+.listTruyen-item-top .content-addCart button {
+  margin-top: 30px;
+}
+
+.listTruyen-item-top .content-addCart button:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+  background-color: #a6b3b3;
+  color: white;
+}
+/* bottom */
+.listTruyen-item-bottom h3 {
+  font-size: 20px;
+  color: #a6b3b3;
+  padding: 16px 0;
+  border-bottom: 2px solid #a6b3b3ab;
+}
+
+.listTruyen-item-bottom p {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #333;
+  text-align: left;
+}
+
+/*  */
+
+.content-btn .red {
+  background-color: red !important;
+}

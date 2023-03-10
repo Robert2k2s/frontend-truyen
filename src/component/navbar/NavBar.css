@@ -1,0 +1,49 @@
+.navbar {
+  position: relative;
+  display: flex;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.link a {
+  padding: 10px 15px 10px 0;
+  color: #333333;
+  position: relative;
+}
+
+.link a span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.logout {
+  position: absolute;
+  right: 50px;
+}
+.logout button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: rgba(255, 0, 0, 0.458);
+}

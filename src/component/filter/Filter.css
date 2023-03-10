@@ -1,0 +1,12 @@
+.filter {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  left: 80px;
+}
+
+.filter input {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}

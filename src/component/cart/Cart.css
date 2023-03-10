@@ -1,0 +1,32 @@
+.cart {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cart-item {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+}
+
+.cart-item .cart-item-image {
+  margin-right: 100px;
+  width: 210px;
+  height: 260px;
+  overflow: hidden;
+}
+
+.cart-item .cart-item-image img {
+  width: 100%;
+}
+
+.cart-item-info .cart-item-buttons button {
+  padding: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.cart-item-info .cart-item-buttons button:last-child {
+  margin-left: 50px;
+}
