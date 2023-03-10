@@ -27,7 +27,7 @@ function App() {
 
   useEffect(() => {
     function getData() {
-      const res = axios.get("/api/truyen");
+      const res = axios.get("/truyen");
       return res;
     }
     getData()
